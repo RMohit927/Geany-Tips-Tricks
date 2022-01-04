@@ -24,7 +24,7 @@
 #~ # Default is used for all filetypes and keys can be overwritten by [filetype] sections
 [Default]
 cpp=#include<bits/stdc++.h>\nusing namespace std;\n\n#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL)\n#define endl "\\n"\n#define f_input freopen("inputs/input.txt", "r", stdin)\n#define f_output freopen("inputs/output.txt", "w", stdout)\n\ntypedef long long int ll;\ntypedef long double ld;\ntypedef pair<int, int> pi;\ntypedef pair<ll, ll> pli;\ntypedef pair<ld, ld> pld;\n\ntypedef vector<int> VI;\ntypedef vector<ll> VLLI;\ntypedef vector<pi> VPI;\ntypedef vector<pli> VPLI;\n\n#define mk make_pair\n#define pb push_back\n#define test int t; cin >> t; while(t--)\n\nclass Solution{\npublic:\n\tvoid Helper(){\n\n\t}\n};\n\nint main(){\n\tfastio;\n#ifndef ONLINE_JUDGE\n\tf_input;\n\tf_output;\n#endif\n\t\n\tSolution obj;\n\n\ttest{\n\t\tobj.Helper();\n\t}\n\n\treturn 0;\n}
-
+cpp_basic=#include<bits/stdc++.h>\nusing namespace std;\n\n#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL)\n#define endl "\\n"\n\nint main(){\n\tfastio;\n\n\treturn 0;\n}
 
 #~ # special keys to be used in other snippets, cannot be used "standalone"
 #~ # can be used by %key%, e.g. %brace_open%
@@ -59,7 +59,7 @@ while=while (%cursor%)%block_cursor%
 do=do\n{\n\t%cursor%\n} while (%cursor%)\n
 switch=switch (%cursor%)%brace_open%case %cursor%:\n\t\t%cursor%\n\t\tbreak;\n\tdefault:\n\t\t%cursor%\n%brace_close%
 try=try%block%\ncatch (%cursor%)%block_cursor%
-b ={\n\t%cursor%\n}
+b={\n\t%cursor%\n}
 #~ b={\n\t%cursor%\n}
 
 #~ [Java]
