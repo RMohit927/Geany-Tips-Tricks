@@ -154,6 +154,12 @@ Compile:
 g++ -Wall -c "%f"
 ```
 Build:
+
+By Default:
+```
+g++ -Wall -o "%e" "%f"
+```
+Change it into:
 ```
 g++ -Wall -o "%p/exe/%e" "%f"
 ```
