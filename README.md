@@ -163,3 +163,8 @@ Change it into:
 ```
 g++ -Wall -o "%p/exe/%e" "%f"
 ```
+
+Execute:
+```
+./exe/%e
+```
