@@ -25,6 +25,8 @@
 [Default]
 cpp=#include<bits/stdc++.h>\nusing namespace std;\n\n#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL)\n#define endl "\\n"\n#define f_input freopen("inputs/input.txt", "r", stdin)\n#define f_output freopen("inputs/output.txt", "w", stdout)\n\ntypedef long long int ll;\ntypedef long double ld;\ntypedef pair<int, int> pi;\ntypedef pair<ll, ll> pli;\ntypedef pair<ld, ld> pld;\n\ntypedef vector<int> VI;\ntypedef vector<ll> VLLI;\ntypedef vector<pi> VPI;\ntypedef vector<pli> VPLI;\n\n#define mk make_pair\n#define pb push_back\n#define test int t; cin >> t; while(t--)\n\nclass Solution{\npublic:\n\tvoid Helper(){\n\n\t}\n};\n\nint main(){\n\tfastio;\n#ifndef ONLINE_JUDGE\n\tf_input;\n\tf_output;\n#endif\n\t\n\tSolution obj;\n\n\ttest{\n\t\tobj.Helper();\n\t}\n\n\treturn 0;\n}
 cpp_basic=#include<bits/stdc++.h>\nusing namespace std;\n\n#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL)\n#define endl "\\n"\n\nint main(){\n\tfastio;\n\n\treturn 0;\n}
+linked_list=struct Node{\n\tint data;\n\tNode *next;\n\n\tNode(int x){\n\t\tdata = x;\n\t\tnext = NULL;\n\t}\n};\n\nvoid print(Node *start){\n\tNode *curr = start;\n\twhile(curr){\n\t\tcout << "Data = " << curr->data << ", Random  = " << curr->random->data << endl;\n\t\tcurr = curr->next;\n\t}\n}
+
 
 #~ # special keys to be used in other snippets, cannot be used "standalone"
 #~ # can be used by %key%, e.g. %brace_open%
